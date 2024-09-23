@@ -5,16 +5,16 @@ import bg2 from '../../../assets/bg2.jpg';
 const Hero = () => {
   return (
     <div className="relative h-screen overflow-hidden">
-      {/* Blurred background */}
+   
       <div 
         className="absolute inset-0 bg-cover bg-center blur-sm"
         style={{backgroundImage: `url(${bg})`}}
       ></div>
       
-      {/* Overlay to adjust brightness if needed */}
+
       <div className="absolute inset-0 bg-black opacity-30"></div>
       
-      {/* Content */}
+ 
       <div className="relative h-full flex items-center justify-center">
         <div className="text-center text-white z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">

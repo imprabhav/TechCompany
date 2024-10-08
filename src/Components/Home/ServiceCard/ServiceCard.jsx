@@ -1,4 +1,6 @@
+import { link } from 'framer-motion/client';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -6,24 +8,31 @@ const services = [
     title: 'Web Design and Development Services',
     description: 'We have mastered the top web technologies to deliver high-performing & engaging web solutions for smarter work and improved customer service.',
     logo: '🌐', // Placeholder for logo
+    link:'/web-development'
+
   },
   {
     id: 2,
     title: 'Mobile App Development',
     description: 'Leverage ApexTech’s multiyear experience in developing native and cross-platform mobile apps for consumer-facing and business environments.',
     logo: '📱', // Placeholder for logo
+    link:'/app-development'
   },
   {
     id: 3,
     title: 'Data Analytics',
     description: 'Unlock the power of your data to drive strategic business decisions through our expert analytics solutions.',
     logo: '📊', // Placeholder for logo
+    link:'/data-analytics'
+
   },
   {
     id: 4,
     title: 'Salesforce Solutions',
     description: 'Engage with us to maximize your Salesforce investment, its benefits, and features.',
     logo: '⚙️', // Placeholder for logo
+    link:'/sap'
+
   },
 ];
 
@@ -42,9 +51,11 @@ const ServiceCard = () => {
             </h3>
             <p className="text-gray-600 text-center mb-6">{service.description}</p>
             <div className="flex justify-center">
+            <Link to={service.link}>
               <button className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-colors duration-300">
                 Learn More
               </button>
+              </Link>
             </div>
           </div>
         ))}

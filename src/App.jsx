@@ -15,6 +15,7 @@ import MobileDev2 from './Components/Services/MobileDev2.jsx'
 import Salesforce from './Components/Services/Salesforce.jsx'
 import DataAnalytics from './Components/Services/DataAnalytics.jsx'
 import WebDesignDevelopmentPage from './Components/Services/WebDesignDevelopmentPage.jsx'
+import ScrollToTop from './Components/Home/ScrollToTop.jsx'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
   return (
    <>
    <Router>
+   <ScrollToTop/>
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import MobileDevelopmentImage from '../../assets/Mobile.jpg'; 
+import MobileDevelopmentImage from '../../assets/mobile.jpg'; 
 
 const MobileDevelopmentPage = () => {
     return (

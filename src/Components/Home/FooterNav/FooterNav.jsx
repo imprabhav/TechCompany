@@ -6,7 +6,7 @@ export default () => {
             label: "Resources",
             items: [
                 {
-                    to: '/contact',
+                    to: '/contact-us',
                     name: 'Contact'
                 },
                 // {
@@ -112,34 +112,9 @@ export default () => {
                         </form>
                     </div>
                 </div>
-                <div className="flex-1 mt-16 space-y-6 justify-between sm:flex md:space-y-0">
-                    {
-                        footerNavs.map((item, idx) => (
-                            <ul
-                                className="space-y-4 text-gray-300"
-                                key={idx}
-                            >
-                                <h4 className="text-gray-200 font-semibold sm:pb-2">
-                                    {item.label}
-                                </h4>
-                                {
-                                    item.items.map(((el, idx) => (
-                                        <li key={idx}>
-                                            {/* <Link
-                                                to={el.to}
-                                                className="duration-150 hover:text-gray-400"
-                                            >
-                                                {el.name}
-                                            </Link> */}
-                                        </li>
-                                    )))
-                                }
-                            </ul>
-                        ))
-                    }
-                </div>
+                
                 <div className="mt-10 py-10 border-t border-gray-700 items-center justify-between sm:flex">
-                    <p className="text-gray-300">© 2024 Kaltics Inc. All rights reserved.</p>
+                    <p className="text-gray-300">© 2024 TheCodeye Inc. All rights reserved.</p>
                     <div className="flex items-center gap-x-6 text-gray-400 mt-6">
                         <a href="javascript:void()">
                             <svg className="w-6 h-6 hover:text-gray-500 duration-150" fill="none" viewBox="0 0 48 48"><g clip-path="url(#a)"><path fill="currentColor" d="M48 24C48 10.745 37.255 0 24 0S0 10.745 0 24c0 11.979 8.776 21.908 20.25 23.708v-16.77h-6.094V24h6.094v-5.288c0-6.014 3.583-9.337 9.065-9.337 2.625 0 5.372.469 5.372.469v5.906h-3.026c-2.981 0-3.911 1.85-3.911 3.75V24h6.656l-1.064 6.938H27.75v16.77C39.224 45.908 48 35.978 48 24z" /></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h48v48H0z" /></clipPath></defs></svg>

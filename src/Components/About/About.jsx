@@ -22,7 +22,7 @@ const About = () => {
               custom software solutions.
             </p>
             <p className="text-xl">
-              ApexTech is a unique endeavor to understand your business from
+              TheCodeye is a unique endeavor to understand your business from
               your viewpoint and craft the ultimate solution to help you
               succeed.
             </p>
@@ -57,7 +57,7 @@ const About = () => {
               <p className="text-xl mb-6 text-gray-700">
                 Our team is guided by a common goal and professional values. You
                 will find a perfect blend of technical, managerial, and
-                developmental skills in ApexTech. We achieve extraordinary
+                developmental skills in Thecodeye. We achieve extraordinary
                 results due to the interprofessional team collaboration and
                 out-of-the-box thinking. Complex technical tasks encourage us to
                 generate creative ideas and outperform our own results.
@@ -81,7 +81,7 @@ const About = () => {
               <li className="flex items-start">
                 <span className="text-blue-500 mr-2">—</span>
                 <span>
-                  ApexTech takes extra steps to ensure stunning results.
+                  Thecodeye takes extra steps to ensure stunning results.
                 </span>
               </li>
               <li className="flex items-start">
@@ -108,7 +108,7 @@ const About = () => {
           <p className="text-xl text-gray-700">
             We value our clients’ success. We are generous in sharing our
             knowledge. Our attention to quality makes the software development
-            journey worthy for customers of ApexTech.
+            journey worthy for customers of Thecodeye.
           </p>
           <img src={about4}
             className="mt-5 w-full max-h-80 object-cover object-[50%_70%] rounded-lg shadow-lg mx-auto"

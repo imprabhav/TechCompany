@@ -14,7 +14,7 @@ const services = [
   {
     id: 2,
     title: 'Mobile App Development',
-    description: 'Leverage ApexTech’s multiyear experience in developing native and cross-platform mobile apps for consumer-facing and business environments.',
+    description: 'Leverage Thecodeye’s multiyear experience in developing native and cross-platform mobile apps for consumer-facing and business environments.',
     logo: '📱', // Placeholder for logo
     link:'/app-development'
   },

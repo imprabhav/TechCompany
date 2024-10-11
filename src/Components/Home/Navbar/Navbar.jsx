@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import logo from '../../../assets/newlogo.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -39,7 +39,7 @@ const Navbar = () => {
                 isScrolled ? "text-gray-800" : "text-white"
               }`}
             >
-              Logo
+             <img src={logo} width="150" height="50" alt="logo"></img>
             </a>
           </div>
 
@@ -108,13 +108,13 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center">
-            <button
+            <Link to='/contact-us'
               className={`px-4 py-2 rounded-md font-bold ${
                 isScrolled ? "bg-blue-500 text-white" : "bg-white text-blue-500"
               } hover:bg-opacity-90`}
             >
               Contact
-            </button>
+            </Link>
           </div>
 
           <div className="md:hidden flex items-center">

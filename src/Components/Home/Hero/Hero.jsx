@@ -60,6 +60,7 @@
 import React from 'react';
 import bg from '../../../assets/bg.jpg';
 import bg2 from '../../../assets/bg2.jpg';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -75,16 +76,16 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative h-full flex items-center justify-center">
-        <div className="text-center text-white z-10">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Software development company
+        <div className="text-center  z-10">
+          <h1 className="text-4xl md:text-5xl text-gray-600 shadow-lg lg:text-6xl font-bold mb-4">
+            The Codeye.
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
+          <p className="text-xl md:text-2xl text-white mb-8">
             Proven experts and proficient Technology partner
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+          <Link to="/contact-us" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
             Discuss my project
-          </button>
+          </Link>
         </div>
       </div>
     </div>

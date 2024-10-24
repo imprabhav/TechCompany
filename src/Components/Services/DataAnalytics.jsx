@@ -8,7 +8,7 @@ const DataAnalyticsPage = () => {
                 <div className="mt-3 md:w-3/5 px-4 py-8 text-white">
                     <h1 className="text-4xl font-bold mt-30">Data Analytics</h1>
                     <p className="text-lg mt-6">
-                        At Kaltics, we empower businesses with data-driven decision-making through advanced analytics solutions. Our data analytics services cover the full lifecycle of data, from collection and processing to actionable insights that optimize business performance.
+                        At Codeye, we empower businesses with data-driven decision-making through advanced analytics solutions. Our data analytics services cover the full lifecycle of data, from collection and processing to actionable insights that optimize business performance.
                     </p>
                     {/* <p className="text-lg mt-6">
                         We specialize in leveraging data to deliver customized analytics solutions that fit your specific business needs, allowing you to make informed decisions and stay competitive in today's data-driven world.
@@ -50,7 +50,7 @@ const DataAnalyticsPage = () => {
 
             {/* Benefits Section */}
             <section className="py-16 px-8 bg-gray-100 text-gray-900">
-                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Kaltics for Data Analytics?</h2>
+                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Codeye for Data Analytics?</h2>
                 <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="p-6 bg-white rounded-lg shadow-lg">
                         <h3 className="text-xl font-semibold mb-4">Industry Expertise</h3>

@@ -9,7 +9,7 @@ const WebDesignDevelopmentPage = () => {
                 <div className="mt-3 md:w-3/5 px-6 py-8 text-white">
                     <h1 className="text-4xl font-bold">Web Design & Development</h1>
                     <p className="text-lg mt-6">
-                        At Kaltics, we offer cutting-edge web design and development services tailored to elevate your brand and drive business growth. Our team creates responsive, user-friendly websites that not only look great but also deliver seamless experiences on all devices.
+                        At Codeye, we offer cutting-edge web design and development services tailored to elevate your brand and drive business growth. Our team creates responsive, user-friendly websites that not only look great but also deliver seamless experiences on all devices.
                     </p>
                     {/* <p className="text-lg mt-4">
                         From concept to launch, we work closely with you to ensure your website is aligned with your business goals and optimized for search engines, providing a solid foundation for your online presence.
@@ -38,7 +38,7 @@ const WebDesignDevelopmentPage = () => {
 
             {/* Benefits Section */}
             <section className="py-16 px-8 bg-gray-100 text-gray-900">
-                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Kaltics for Web Development?</h2>
+                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Codeye for Web Development?</h2>
                 <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Benefit 1 */}
                     <div className="p-6 bg-white rounded-lg shadow-lg">

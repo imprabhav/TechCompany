@@ -9,7 +9,7 @@ const MobileDevelopmentPage = () => {
                 <div className="mt-3 md:w-3/5 px-4 py-8 text-white">
                     <h1 className="text-4xl font-bold">Mobile Application Development</h1>
                     <p className="text-lg mt-6">
-                        Kaltics acts as an end-to-end software development partner that builds excellent mobile experiences. Our user-centric mobile solutions are powered by innovative technologies and fueled by our competence and vast experience in custom app development.
+                        TheCodeye acts as an end-to-end software development partner that builds excellent mobile experiences. Our user-centric mobile solutions are powered by innovative technologies and fueled by our competence and vast experience in custom app development.
                     </p>
                     {/* <p className="text-lg mt-4">
                         At Kaltics, we understand your business from your perspective and craft custom mobile solutions to help you achieve your goals, whether it's increasing revenue, improving customer engagement, or optimizing your business processes.
@@ -49,7 +49,7 @@ const MobileDevelopmentPage = () => {
 
             {/* Benefits Section */}
             <section className="py-16 px-8 bg-gray-100 text-gray-900">
-                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Kaltics for Mobile Development?</h2>
+                <h2 className="text-3xl font-bold text-center mb-8">Why Choose Codeye for Mobile Development?</h2>
                 <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Benefit 1 */}
                     <div className="p-6 bg-white rounded-lg shadow-lg">
